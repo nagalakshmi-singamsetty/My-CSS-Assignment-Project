@@ -1,0 +1,63 @@
+/* Step 1 + 2 */
+.box {
+  border: 3px solid black;
+  padding: 20px 30px 40px 50px; /* top right bottom left */
+  margin: 10px 20px 30px 40px;
+  background: lightblue;
+}
+
+/* Step 3 → observe margin behavior */
+
+/* Step 4 */
+.box1 {
+  height: 100vh; /* full screen */
+}
+
+/* Step 5 */
+.box1 {
+  height: 300px;
+  width: 50%;
+  background: coral;
+}
+
+.box2 {
+  height: 300px;
+  width: 50%;
+  background: lightgreen;
+}
+
+/* Step 6 → side by side */
+/* .box {
+  display: inline-block;
+} */
+
+/* OR better */
+
+/* body {
+  display: flex;
+  flex-direction: column;
+} */
+
+
+/* Step 7 → try one at a time */
+
+/* Remove completely */
+
+/* .box1 {
+  display: none;
+} */
+
+
+/* Hide but keep space */
+
+/* .box1 {
+  visibility: hidden;
+} */
+
+
+/* Step 8 → hover on last div */
+div:last-of-type:hover {
+  background: purple;
+  color: white;
+
+}
